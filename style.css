@@ -1,0 +1,36 @@
+.mainbox {
+    position: absolute;
+    background-color: chartreuse;
+    width: 20px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+left: 0px;
+top: 0px;
+}
+.haeder-text{
+    color: fuchsia;
+transform: rotate(90deg);
+
+}
+.haeder-link:hover{
+    color: firebrick;
+}
+.haeder-link{
+    color: bisque;
+}
+.mainbox:hover .box{
+    opacity: 1;
+    z-index: 2;
+    background-color: chartreuse;
+}
+.box{
+    opacity: 0;
+    height: 250px;
+    width: 100px;
+}
+.body{
+    position: relative;
+}
